@@ -1,2 +1,4 @@
 .htaccess
 wp-config.php
+wp-content/backups-dup-lite
+wp-content/ai1wm-backups

@@ -1,4 +1,7 @@
 <?php
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
 /**
  * Theme functions and definitions
  *
@@ -218,3 +221,7 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+@ini_set( 'upload_max_size' , '150M' );
+@ini_set( 'post_max_size', '150M');
+@ini_set( 'memory_limit', '150M');
+@ini_set( 'max_execution_time', '3000' );
